@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 269358685}
   m_Layer: 0
   m_Name: LavaPlane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 1420038589}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -655,7 +655,7 @@ GameObject:
   - component: {fileID: 1448457308}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,6 +994,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e2c3d2f7b1e05c47beef8e424140fb9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
+  playerSpeed: 5
+  jumpForce: 5
 --- !u!54 &1885405480
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1035,7 +1037,7 @@ GameObject:
   - component: {fileID: 1919936406}
   m_Layer: 0
   m_Name: Floor
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
